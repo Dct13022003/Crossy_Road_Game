@@ -1,7 +1,6 @@
 {
   "name": "crossy_road",
   "version": "0.0.0",
-  "description": "The infinite retro bouncer you'll never need to put down",
   "author": "Doan Cong Tai",
   "main": "expo-router/entry",
   "private": false,
