@@ -5,6 +5,7 @@ import { LayoutAnimation, Share, StyleSheet, View } from "react-native";
 import Button from "../Button";
 import Colors from "../../Colors";
 import State from "../../state";
+import Images from "../../Images";
 async function shareAsync() {
   await Share.share(
     {

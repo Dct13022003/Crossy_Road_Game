@@ -3,6 +3,7 @@ import { LayoutAnimation, Animated, StyleSheet, View } from "react-native";
 
 import Button from "../Button";
 import CharacterPicker from "../CharacterPicker";
+import Images from "../../Images";
 
 const imageStyle = { width: 60, height: 48 };
 

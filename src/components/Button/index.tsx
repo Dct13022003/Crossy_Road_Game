@@ -7,7 +7,7 @@ import {
   TouchableOpacity as TouchableBounce,
 } from "react-native";
 
-import AudioManager from "@/AudioManager";
+import AudioManager from "../../AudioManager";
 
 export default function Button({
   onPress,
