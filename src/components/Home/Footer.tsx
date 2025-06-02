@@ -9,7 +9,7 @@ const imageStyle = { width: 60, height: 48 };
 
 export default function Footer(props) {
   const [menuOpen, setMenuOpen] = React.useState(false);
-
+  const [showCharacterPicker, setShowCharacterPicker] = React.useState(true);
   const collapse = React.useCallback(
     (onPress) => () => {
       setMenuOpen(false);
@@ -45,14 +45,16 @@ export default function Footer(props) {
 
   return (
     <Animated.View style={[styles.container, props.style]}>
-      <Button
+      {/* <Button
         style={{ maxHeight: 48 }}
         onPress={props.onCharacterSelect}
         imageStyle={imageStyle}
         source={Images.button.character}
-      />
+      /> */}
 
-      {false && <CharacterPicker />}
+      {showCharacterPicker && (
+        <CharacterPicker onClose={() => setShowCharacterPicker(false)} />
+      )}
 
       <View style={{ flex: 1 }} />
 

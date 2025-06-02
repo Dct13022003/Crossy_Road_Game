@@ -174,5 +174,9 @@ export default {
       model: require("../assets/models/characters/juwan/juwan.obj"),
       texture: require("../assets/models/characters/juwan/juwan.png"),
     },
+    whale : {
+      model : require("../assets/models/characters/whale/cr7.obj"),
+      texture: require("../assets/models/characters/whale/cr7.png")
+    }
   },
 };
