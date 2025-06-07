@@ -75,7 +75,6 @@ export class CrossyScene extends Scene {
       if (type === "water") {
         this.waterParticles.mesh.position.copy(model.position);
         this.waterParticles.run(type);
-        await AudioManager.playAsync(AudioManager.sounds.water);
       } else if (type === "feathers") {
         this.featherParticles.mesh.position.copy(model.position);
         this.featherParticles.run(type, direction);

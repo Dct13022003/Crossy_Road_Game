@@ -27,8 +27,20 @@ export default {
     name: "Juwan",
     id: "juwan",
   },
-  whale: {
-    name: "Whale",
-    id: "whale",
+  cr7: {
+    name: "Cr7",
+    id: "cr7",
+  },
+  cat: {
+    name: "Cat",
+    id: "cat",
+  },
+  oog: {
+    name: "Oog",
+    id: "oog",
+  },
+  robot: {
+    name: "Robot",
+    id: "robot",
   },
 };

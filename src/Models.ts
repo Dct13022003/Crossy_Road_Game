@@ -174,9 +174,21 @@ export default {
       model: require("../assets/models/characters/juwan/juwan.obj"),
       texture: require("../assets/models/characters/juwan/juwan.png"),
     },
-    whale : {
-      model : require("../assets/models/characters/whale/cr7.obj"),
-      texture: require("../assets/models/characters/whale/cr7.png")
-    }
+    cr7: {
+      model: require("../assets/models/characters/cr7/cr7.obj"),
+      texture: require("../assets/models/characters/cr7/cr7.png"),
+    },
+    cat: {
+      model: require("../assets/models/characters/cat/cat.obj"),
+      texture: require("../assets/models/characters/cat/cat.png"),
+    },
+    oog: {
+      model: require("../assets/models/characters/Oog/Oog.obj"),
+      texture: require("../assets/models/characters/Oog/Oog.png"),
+    },
+    robot: {
+      model: require("../assets/models/characters/robot/robotuit.obj"),
+      texture: require("../assets/models/characters/robot/robotuit.png"),
+    },
   },
 };

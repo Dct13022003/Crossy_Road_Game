@@ -21,7 +21,7 @@ import Images from "../Images";
 const banner = [
   {
     color: "#3640eb",
-    title: "Get Updates Subscribe Now",
+    title: "Game Over",
     button: {
       onPress: (_) => {
         Alert.alert(
@@ -42,11 +42,11 @@ const banner = [
   },
   {
     color: "#368FEB",
-    title: "Free Gift in 2h 51m",
+    title: "Share Your Score",
   },
   {
     color: "#36D6EB",
-    title: "44 Coins To Go",
+    title: "New Game",
   },
 ];
 
