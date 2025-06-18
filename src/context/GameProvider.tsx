@@ -6,7 +6,7 @@ import GameContext from "./GameContext";
 const STORAGE_KEY = "@CrossyRoad:Character";
 const SHOULD_REHYDRATE = true;
 
-const defaultState = { character: "palmer", highscore: 0 };
+const defaultState = { character: "cr7", highscore: 0 };
 
 async function cacheAsync(value) {
   await AsyncStorage.setItem(STORAGE_KEY, JSON.stringify(value));

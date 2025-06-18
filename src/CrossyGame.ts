@@ -11,7 +11,6 @@ import {
 
 import * as THREE from "three";
 
-import AudioManager from "./AudioManager";
 import { MAP_OFFSET, maxRows } from "./GameSettings";
 import Feathers from "./Particles/Feathers";
 import Water from "./Particles/Water";
@@ -150,9 +149,6 @@ export class CrossyRenderer extends Renderer {
     super(props);
     this.__gl = props.gl;
     this.setShadowsEnabled(useShadows);
-
-    // this.toneMapping = THREE.NoToneMapping; // Or experiment with other mappings like LinearToneMapping
-    // this.toneMappingExposure = 1; // Increase if the scene is too dim
   }
 
   setShadowsEnabled(enabled) {

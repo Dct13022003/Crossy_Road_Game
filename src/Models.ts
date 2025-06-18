@@ -55,6 +55,10 @@ export default {
         model: require("../assets/models/environment/tree/3/0.obj"),
         texture: require("../assets/models/environment/tree/3/0.png"),
       },
+      "4": {
+        model: require("../assets/models/environment/tree/4/tree.obj"),
+        texture: require("../assets/models/environment/tree/4/tree.png"),
+      },
     },
     lily_pad: {
       model: require("../assets/models/environment/lily_pad/0.obj"),
@@ -146,33 +150,13 @@ export default {
     },
   },
   characters: {
-    brent: {
-      model: require("../assets/models/characters/brent/0.obj"),
-      texture: require("../assets/models/characters/brent/0.png"),
-    },
     chicken: {
       model: require("../assets/models/characters/chicken/0.obj"),
       texture: require("../assets/models/characters/chicken/0.png"),
     },
-    avocoder: {
-      model: require("../assets/models/characters/avocoder/avocoder.obj"),
-      texture: require("../assets/models/characters/avocoder/avocoder.png"),
-    },
     bacon: {
       model: require("../assets/models/characters/bacon/bacon.obj"),
       texture: require("../assets/models/characters/bacon/bacon.png"),
-    },
-    wheeler: {
-      model: require("../assets/models/characters/wheeler/wheeler.obj"),
-      texture: require("../assets/models/characters/wheeler/wheeler.png"),
-    },
-    palmer: {
-      model: require("../assets/models/characters/palmer/palmer.obj"),
-      texture: require("../assets/models/characters/palmer/palmer.png"),
-    },
-    juwan: {
-      model: require("../assets/models/characters/juwan/juwan.obj"),
-      texture: require("../assets/models/characters/juwan/juwan.png"),
     },
     cr7: {
       model: require("../assets/models/characters/cr7/cr7.obj"),
@@ -185,10 +169,6 @@ export default {
     oog: {
       model: require("../assets/models/characters/Oog/Oog.obj"),
       texture: require("../assets/models/characters/Oog/Oog.png"),
-    },
-    robot: {
-      model: require("../assets/models/characters/robot/robotuit.obj"),
-      texture: require("../assets/models/characters/robot/robotuit.png"),
     },
   },
 };

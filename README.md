@@ -1,18 +1,38 @@
-# withRouter [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Do%20you%20wish%20that%20withRouter%20would%20rerender%20your%20component%20when%20your%20route%20changes?%20Now%20it%20can%20with%20the%20with-router%20NPM%20package!&url=https://github.com/CharlesStover/with-router&via=CharlesStover&hashtags=react,reactjs,javascript,webdev,webdeveloper,webdevelopment)
+# CS105 - Computer Graphics
 
-A pub-sub alternative HOC to `react-router`'s `withRouter` HOC. It functions exactly the same way, except the wrapped component will re-render when the route changes. This is beneficial if your view changes depending on the current path.
+## ![](image.png)
 
-[![version](https://img.shields.io/npm/v/with-router.svg)](https://www.npmjs.com/package/with-router)
-[![minified size](https://img.shields.io/bundlephobia/min/with-router.svg)](https://www.npmjs.com/package/with-router)
-[![minzipped size](https://img.shields.io/bundlephobia/minzip/with-router.svg)](https://www.npmjs.com/package/with-router)
-[![downloads](https://img.shields.io/npm/dt/with-router.svg)](https://www.npmjs.com/package/with-router)
-[![build](https://api.travis-ci.com/CharlesStover/with-router.svg)](https://travis-ci.com/CharlesStover/with-router/)
+For our final project in CS105 - Computer Graphics, I propose to create a browser-based remake of the popular game "Crossy Road".
+
+## Models
+
+This project adapts the Voxel Graphics style, using [MagicalVoxel](https://ephtracy.github.io/), an open-source project, to create voxel-based models for characters and environment elements.
+
+If you'd like to see someone else in the game or have any relevant ideas, please open an issue!
+
+## Stack
+
+- Expo (ios, android, web)
+- React Native for web (web)
+- THREE.js for rendering
+- GSAP for animating
 
 ## Install
 
-* `npm install with-router --save` or
-* `yarn add with-router`
+### Clone this repository:
 
-## Use
+```bash
+git clone https://github.com/Dev-Aligator/Crossy-ComGraphics.git
+```
 
-Use it the same way you would use `react-router`'s built-in `withRouter` HOC!
+### Next, install the dependencies:
+
+```bash
+ npm i --force
+```
+
+### To start the web version of the game, run:
+
+```bash
+ npx expo start --web
+```

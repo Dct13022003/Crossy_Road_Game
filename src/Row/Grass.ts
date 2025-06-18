@@ -32,7 +32,7 @@ export default class Grass extends Object3D {
   generate = (type = Fill.random) => {
     this.entities.map((val) => {
       this.floor.remove(val.mesh);
-      val = null;
+      val = null; 
     });
     this.entities = [];
     this.obstacleMap = {};

@@ -118,9 +118,7 @@ function Screen(props) {
             {!__DEV__ && <Hand style={{ width: 36 }} />}
           </View>
           <Footer
-            onCharacterSelect={() => {
-              // TODO(Bacon): Create a character select page
-            }}
+            onCharacterSelect={() => {}}
             onShop={() => {}}
             onMultiplayer={() => {}}
             onCamera={() => {}}
