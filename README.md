@@ -22,7 +22,7 @@ If you'd like to see someone else in the game or have any relevant ideas, please
 ### Clone this repository:
 
 ```bash
-git clone https://github.com/Dev-Aligator/Crossy-ComGraphics.git
+git clone https://github.com/Dct13022003/Crossy_Road_Game.git
 ```
 
 ### Next, install the dependencies:
